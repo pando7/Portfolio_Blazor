@@ -18,4 +18,4 @@ WORKDIR /app
 COPY --from=build /app /app
 
 ## Set entrypoint
-ENTRYPOINT ["/app/Porfolio_Blazor"]
+ENTRYPOINT ["/app/Portfolio_Blazor"]
